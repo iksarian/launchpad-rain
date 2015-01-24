@@ -1,0 +1,19 @@
+GIT
+  remote: https://github.com/aurelian/launchpad.git
+  revision: 5e7f108633a6b80914cd84a580dc4bd2a45fde62
+  specs:
+    launchpad (0.3.0)
+      ffi
+      portmidi (>= 0.0.6)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ffi (1.9.6)
+    portmidi (0.0.6)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  launchpad!
