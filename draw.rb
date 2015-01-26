@@ -90,11 +90,72 @@ end
      # interaction.device.change :grid, :x => (index - 1) + 1, :y => 7, :red => red, :green => green
  # end
 #end
-
+#rain
+#rain
+#rain
+#rain
 while true do
   1.times do |a|
     sleep 0.05
-#rain
+    interaction.device.change :grid, :x => 4, :y => 0, :red => :off, :green => :high
+    sleep 0.1
+    interaction.device.change :grid, :x => 4, :y => 0, :red => :off, :green => :off
+    sleep 0.05
+    interaction.device.change :grid, :x => 4, :y => 1, :red => :off, :green => :high
+    sleep 0.1
+    interaction.device.change :grid, :x => 4, :y => 1, :red => :off, :green => :off
+    sleep 0.05
+    interaction.device.change :grid, :x => 2, :y => 0, :red => :off, :green => :high
+    interaction.device.change :grid, :x => 4, :y => 2, :red => :off, :green => :high
+    sleep 0.1
+    interaction.device.change :grid, :x => 2, :y => 0, :red => :off, :green => :off
+    interaction.device.change :grid, :x => 4, :y => 2, :red => :off, :green => :off
+    sleep 0.05
+    interaction.device.change :grid, :x => 2, :y => 1, :red => :off, :green => :high
+    interaction.device.change :grid, :x => 4, :y => 3, :red => :off, :green => :high
+    interaction.device.change :grid, :x => 5, :y => 0, :red => :off, :green => :high
+    sleep 0.1
+    interaction.device.change :grid, :x => 2, :y => 1, :red => :off, :green => :off
+    interaction.device.change :grid, :x => 4, :y => 3, :red => :off, :green => :off
+    interaction.device.change :grid, :x => 5, :y => 0, :red => :off, :green => :off
+    sleep 0.05
+    interaction.device.change :grid, :x => 2, :y => 2, :red => :off, :green => :high
+    interaction.device.change :grid, :x => 4, :y => 4, :red => :off, :green => :high
+    interaction.device.change :grid, :x => 5, :y => 1, :red => :off, :green => :high
+    interaction.device.change :grid, :x => 7, :y => 0, :red => :off, :green => :high
+    sleep 0.1
+    interaction.device.change :grid, :x => 2, :y => 2, :red => :off, :green => :off
+    interaction.device.change :grid, :x => 4, :y => 4, :red => :off, :green => :off
+    interaction.device.change :grid, :x => 5, :y => 1, :red => :off, :green => :off
+    interaction.device.change :grid, :x => 7, :y => 0, :red => :off, :green => :off
+    sleep 0.05
+    interaction.device.change :grid, :x => 1, :y => 0, :red => :off, :green => :high
+    interaction.device.change :grid, :x => 2, :y => 3, :red => :off, :green => :high
+    interaction.device.change :grid, :x => 4, :y => 5, :red => :off, :green => :high
+    interaction.device.change :grid, :x => 5, :y => 2, :red => :off, :green => :high
+    interaction.device.change :grid, :x => 7, :y => 1, :red => :off, :green => :high
+    sleep 0.1
+    interaction.device.change :grid, :x => 1, :y => 0, :red => :off, :green => :off
+    interaction.device.change :grid, :x => 2, :y => 3, :red => :off, :green => :off
+    interaction.device.change :grid, :x => 4, :y => 5, :red => :off, :green => :off
+    interaction.device.change :grid, :x => 5, :y => 2, :red => :off, :green => :off
+    interaction.device.change :grid, :x => 7, :y => 1, :red => :off, :green => :off
+    sleep 0.05
+    interaction.device.change :grid, :x => 1, :y => 1, :red => :off, :green => :high
+    interaction.device.change :grid, :x => 2, :y => 4, :red => :off, :green => :high
+    interaction.device.change :grid, :x => 3, :y => 0, :red => :off, :green => :high
+    interaction.device.change :grid, :x => 4, :y => 6, :red => :off, :green => :high
+    interaction.device.change :grid, :x => 5, :y => 3, :red => :off, :green => :high
+    interaction.device.change :grid, :x => 7, :y => 2, :red => :off, :green => :high
+    sleep 0.1
+    interaction.device.change :grid, :x => 1, :y => 1, :red => :off, :green => :off
+    interaction.device.change :grid, :x => 2, :y => 4, :red => :off, :green => :off
+    interaction.device.change :grid, :x => 3, :y => 0, :red => :off, :green => :off
+    interaction.device.change :grid, :x => 4, :y => 6, :red => :off, :green => :off
+    interaction.device.change :grid, :x => 5, :y => 3, :red => :off, :green => :off
+    interaction.device.change :grid, :x => 7, :y => 2, :red => :off, :green => :off
+  #rainfade in above
+    sleep 0.05
     interaction.device.change :grid, :x => 0, :y => 0, :red => :off, :green => :high
     interaction.device.change :grid, :x => 1, :y => 2, :red => :off, :green => :high
     interaction.device.change :grid, :x => 2, :y => 5, :red => :off, :green => :high
@@ -1422,7 +1483,86 @@ while true do
   # START ORANGE
   # START ORANGE
   1.times do |a|
-#rain
+    #rain
+    sleep 0.05
+    interaction.device.change :grid, :x => 4, :y => 0, :red => :high, :green => :off
+    sleep 0.1
+    interaction.device.change :grid, :x => 4, :y => 0, :red => :off, :green => :high
+    sleep 0.05
+    interaction.device.change :grid, :x => 2, :y => 0, :red => :high, :green => :off
+    interaction.device.change :grid, :x => 4, :y => 1, :red => :high, :green => :off
+    sleep 0.1
+    interaction.device.change :grid, :x => 2, :y => 0, :red => :off, :green => :high
+    interaction.device.change :grid, :x => 4, :y => 1, :red => :off, :green => :high
+    sleep 0.05
+    interaction.device.change :grid, :x => 2, :y => 1, :red => :high, :green => :off
+    interaction.device.change :grid, :x => 4, :y => 2, :red => :high, :green => :off
+    interaction.device.change :grid, :x => 5, :y => 0, :red => :high, :green => :off
+    sleep 0.1
+    interaction.device.change :grid, :x => 2, :y => 1, :red => :off, :green => :high
+    interaction.device.change :grid, :x => 4, :y => 2, :red => :off, :green => :high
+    interaction.device.change :grid, :x => 5, :y => 0, :red => :off, :green => :high
+    sleep 0.05
+    interaction.device.change :grid, :x => 2, :y => 2, :red => :high, :green => :off
+    interaction.device.change :grid, :x => 3, :y => 0, :red => :high, :green => :off
+    interaction.device.change :grid, :x => 4, :y => 3, :red => :high, :green => :off
+    interaction.device.change :grid, :x => 5, :y => 1, :red => :high, :green => :off
+    sleep 0.1
+    interaction.device.change :grid, :x => 2, :y => 2, :red => :off, :green => :high
+    interaction.device.change :grid, :x => 3, :y => 0, :red => :off, :green => :high
+    interaction.device.change :grid, :x => 4, :y => 3, :red => :off, :green => :high
+    interaction.device.change :grid, :x => 5, :y => 1, :red => :off, :green => :high
+    sleep 0.05
+    interaction.device.change :grid, :x => 0, :y => 0, :red => :high, :green => :off
+    interaction.device.change :grid, :x => 2, :y => 3, :red => :high, :green => :off
+    interaction.device.change :grid, :x => 3, :y => 1, :red => :high, :green => :off
+    interaction.device.change :grid, :x => 4, :y => 4, :red => :high, :green => :off
+    interaction.device.change :grid, :x => 5, :y => 2, :red => :high, :green => :off
+    sleep 0.1
+    interaction.device.change :grid, :x => 0, :y => 0, :red => :off, :green => :high
+    interaction.device.change :grid, :x => 2, :y => 3, :red => :off, :green => :high
+    interaction.device.change :grid, :x => 3, :y => 1, :red => :off, :green => :high
+    interaction.device.change :grid, :x => 4, :y => 4, :red => :off, :green => :high
+    interaction.device.change :grid, :x => 5, :y => 2, :red => :off, :green => :high
+    sleep 0.05
+    interaction.device.change :grid, :x => 0, :y => 1, :red => :high, :green => :off
+    interaction.device.change :grid, :x => 2, :y => 4, :red => :high, :green => :off
+    interaction.device.change :grid, :x => 3, :y => 2, :red => :high, :green => :off
+    interaction.device.change :grid, :x => 4, :y => 5, :red => :high, :green => :off
+    interaction.device.change :grid, :x => 5, :y => 3, :red => :high, :green => :off
+    interaction.device.change :grid, :x => 7, :y => 0, :red => :high, :green => :off
+    sleep 0.1
+    interaction.device.change :grid, :x => 0, :y => 1, :red => :off, :green => :high
+    interaction.device.change :grid, :x => 2, :y => 4, :red => :off, :green => :high
+    interaction.device.change :grid, :x => 3, :y => 2, :red => :off, :green => :high
+    interaction.device.change :grid, :x => 4, :y => 5, :red => :off, :green => :high
+    interaction.device.change :grid, :x => 5, :y => 3, :red => :off, :green => :high
+    interaction.device.change :grid, :x => 7, :y => 0, :red => :off, :green => :high
+    sleep 0.05
+    interaction.device.change :grid, :x => 0, :y => 2, :red => :high, :green => :off
+    interaction.device.change :grid, :x => 1, :y => 0, :red => :high, :green => :off
+    interaction.device.change :grid, :x => 2, :y => 5, :red => :high, :green => :off
+    interaction.device.change :grid, :x => 3, :y => 3, :red => :high, :green => :off
+    interaction.device.change :grid, :x => 4, :y => 6, :red => :high, :green => :off
+    interaction.device.change :grid, :x => 5, :y => 4, :red => :high, :green => :off
+    interaction.device.change :grid, :x => 7, :y => 1, :red => :high, :green => :off
+    sleep 0.1
+    interaction.device.change :grid, :x => 0, :y => 2, :red => :off, :green => :high
+    interaction.device.change :grid, :x => 1, :y => 0, :red => :off, :green => :high
+    interaction.device.change :grid, :x => 2, :y => 5, :red => :off, :green => :high
+    interaction.device.change :grid, :x => 3, :y => 3, :red => :off, :green => :high
+    interaction.device.change :grid, :x => 4, :y => 6, :red => :off, :green => :high
+    interaction.device.change :grid, :x => 5, :y => 4, :red => :off, :green => :high
+    interaction.device.change :grid, :x => 7, :y => 1, :red => :off, :green => :high
+    #copy above lines, makes rain start at top for smooth fade
+    #copy above lines, makes rain start at top for smooth fade
+    #copy above lines, makes rain start at top for smooth fade
+    #copy above lines, makes rain start at top for smooth fade
+    #copy above lines, makes rain start at top for smooth fade
+    #copy above lines, makes rain start at top for smooth fade
+    #copy above lines, makes rain start at top for smooth fade
+    #copy above lines, makes rain start at top for smooth fade
+    #copy above lines, makes rain start at top for smooth fade
     sleep 0.05
     interaction.device.change :grid, :x => 0, :y => 3, :red => :high, :green => :off
     interaction.device.change :grid, :x => 1, :y => 1, :red => :high, :green => :off
@@ -1441,15 +1581,6 @@ while true do
     interaction.device.change :grid, :x => 5, :y => 5, :red => :off, :green => :high
     interaction.device.change :grid, :x => 6, :y => 0, :red => :off, :green => :high
     interaction.device.change :grid, :x => 7, :y => 2, :red => :off, :green => :high
-    #copy above lines, makes rain start at top for smooth fade
-    #copy above lines, makes rain start at top for smooth fade
-    #copy above lines, makes rain start at top for smooth fade
-    #copy above lines, makes rain start at top for smooth fade
-    #copy above lines, makes rain start at top for smooth fade
-    #copy above lines, makes rain start at top for smooth fade
-    #copy above lines, makes rain start at top for smooth fade
-    #copy above lines, makes rain start at top for smooth fade
-    #copy above lines, makes rain start at top for smooth fade
     sleep 0.05
     interaction.device.change :grid, :x => 0, :y => 4, :red => :high, :green => :off
     interaction.device.change :grid, :x => 1, :y => 2, :red => :high, :green => :off
@@ -2894,6 +3025,79 @@ while true do
   # START RED
   # START RED
   # START RED
+  1.times do |a|
+    #rain
+    sleep 0.05
+    interaction.device.change :grid, :x => 4, :y => 0, :red => :high, :green => :off
+    sleep 0.1
+    interaction.device.change :grid, :x => 4, :y => 0, :red => :high, :green => :high
+    sleep 0.05
+    interaction.device.change :grid, :x => 2, :y => 0, :red => :high, :green => :off
+    interaction.device.change :grid, :x => 4, :y => 1, :red => :high, :green => :off
+    sleep 0.1
+    interaction.device.change :grid, :x => 2, :y => 0, :red => :high, :green => :high
+    interaction.device.change :grid, :x => 4, :y => 1, :red => :high, :green => :high
+    sleep 0.05
+    interaction.device.change :grid, :x => 2, :y => 1, :red => :high, :green => :off
+    interaction.device.change :grid, :x => 4, :y => 2, :red => :high, :green => :off
+    interaction.device.change :grid, :x => 5, :y => 0, :red => :high, :green => :off
+    sleep 0.1
+    interaction.device.change :grid, :x => 2, :y => 1, :red => :high, :green => :high
+    interaction.device.change :grid, :x => 4, :y => 2, :red => :high, :green => :high
+    interaction.device.change :grid, :x => 5, :y => 0, :red => :high, :green => :high
+    sleep 0.05
+    interaction.device.change :grid, :x => 2, :y => 2, :red => :high, :green => :off
+    interaction.device.change :grid, :x => 3, :y => 0, :red => :high, :green => :off
+    interaction.device.change :grid, :x => 4, :y => 3, :red => :high, :green => :off
+    interaction.device.change :grid, :x => 5, :y => 1, :red => :high, :green => :off
+    sleep 0.1
+    interaction.device.change :grid, :x => 2, :y => 2, :red => :high, :green => :high
+    interaction.device.change :grid, :x => 3, :y => 0, :red => :high, :green => :high
+    interaction.device.change :grid, :x => 4, :y => 3, :red => :high, :green => :high
+    interaction.device.change :grid, :x => 5, :y => 1, :red => :high, :green => :high
+    sleep 0.05
+    interaction.device.change :grid, :x => 0, :y => 0, :red => :high, :green => :off
+    interaction.device.change :grid, :x => 2, :y => 3, :red => :high, :green => :off
+    interaction.device.change :grid, :x => 3, :y => 1, :red => :high, :green => :off
+    interaction.device.change :grid, :x => 4, :y => 4, :red => :high, :green => :off
+    interaction.device.change :grid, :x => 5, :y => 2, :red => :high, :green => :off
+    sleep 0.1
+    interaction.device.change :grid, :x => 0, :y => 0, :red => :high, :green => :high
+    interaction.device.change :grid, :x => 2, :y => 3, :red => :high, :green => :high
+    interaction.device.change :grid, :x => 3, :y => 1, :red => :high, :green => :high
+    interaction.device.change :grid, :x => 4, :y => 4, :red => :high, :green => :high
+    interaction.device.change :grid, :x => 5, :y => 2, :red => :high, :green => :high
+    sleep 0.05
+    interaction.device.change :grid, :x => 0, :y => 1, :red => :high, :green => :off
+    interaction.device.change :grid, :x => 2, :y => 4, :red => :high, :green => :off
+    interaction.device.change :grid, :x => 3, :y => 2, :red => :high, :green => :off
+    interaction.device.change :grid, :x => 4, :y => 5, :red => :high, :green => :off
+    interaction.device.change :grid, :x => 5, :y => 3, :red => :high, :green => :off
+    interaction.device.change :grid, :x => 7, :y => 0, :red => :high, :green => :off
+    sleep 0.1
+    interaction.device.change :grid, :x => 0, :y => 1, :red => :high, :green => :high
+    interaction.device.change :grid, :x => 2, :y => 4, :red => :high, :green => :high
+    interaction.device.change :grid, :x => 3, :y => 2, :red => :high, :green => :high
+    interaction.device.change :grid, :x => 4, :y => 5, :red => :high, :green => :high
+    interaction.device.change :grid, :x => 5, :y => 3, :red => :high, :green => :high
+    interaction.device.change :grid, :x => 7, :y => 0, :red => :high, :green => :high
+    sleep 0.05
+    interaction.device.change :grid, :x => 0, :y => 2, :red => :high, :green => :off
+    interaction.device.change :grid, :x => 1, :y => 0, :red => :high, :green => :off
+    interaction.device.change :grid, :x => 2, :y => 5, :red => :high, :green => :off
+    interaction.device.change :grid, :x => 3, :y => 3, :red => :high, :green => :off
+    interaction.device.change :grid, :x => 4, :y => 6, :red => :high, :green => :off
+    interaction.device.change :grid, :x => 5, :y => 4, :red => :high, :green => :off
+    interaction.device.change :grid, :x => 7, :y => 1, :red => :high, :green => :off
+    sleep 0.1
+    interaction.device.change :grid, :x => 0, :y => 2, :red => :high, :green => :high
+    interaction.device.change :grid, :x => 1, :y => 0, :red => :high, :green => :high
+    interaction.device.change :grid, :x => 2, :y => 5, :red => :high, :green => :high
+    interaction.device.change :grid, :x => 3, :y => 3, :red => :high, :green => :high
+    interaction.device.change :grid, :x => 4, :y => 6, :red => :high, :green => :high
+    interaction.device.change :grid, :x => 5, :y => 4, :red => :high, :green => :high
+    interaction.device.change :grid, :x => 7, :y => 1, :red => :high, :green => :high
+  end
   1.times do |a|
     sleep 0.05
 #rain
@@ -4735,7 +4939,7 @@ while true do
     interaction.device.change :grid, :x => 6, :y => 7, :red => :off, :green => :off
   end
 
-end
+  end
 
 
 #scrolling sheets of color
